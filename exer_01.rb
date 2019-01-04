@@ -36,7 +36,7 @@ puts 10 * 5 * 11 * 60 * 60   # calcule des données en tant que les chiffres
 
 puts "Est-ce que c'est vrai que 3 + 2 < 5 - 7 ?" #Booléen => false  verifier si le résultat de l'opération est true ou false 
 
-puts 3 + 2 < 5 - 7   # calcule des données en tant que les chiffres 
+puts 3 + 2 < 5 - 7   # calcule des données en tant que les chiffres et le resultat soit false soit true 
 
 puts "Ça fait combien 3 + 2 ? #{3 + 2}" # calcule des données et l'affichage du résultat 
 puts "Ça fait combien 5 - 7 ? #{5 - 7}" # calcule des données et l'affichage du résultat 
