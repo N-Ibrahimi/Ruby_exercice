@@ -2,8 +2,8 @@
 puts "                             wellcome                                        "
 puts "                                                                             "
 puts "  You should find a number between 0-10 which have selected by computer "
-puts "  attention you have 3 choice :) Read carefully the direction " 
-puts "  Bonne chance"
+puts "  attention you have 3 chance :) Read carefully the direction " 
+puts "  Good luck"
 
 number = rand(10) 
 a = nil 
@@ -11,7 +11,7 @@ for period in 1..3
 	next if a == number
 	puts "                                      "
 	puts  "    Enter a numbre !"
-	print "    >"
+	print "    >  "
 a = gets.chomp.to_i
 	if a > number 
 		puts "                                  "
@@ -32,6 +32,7 @@ if a==number
 	puts  "    *************************"
 end 
 if a != number
+	
 	puts  "    *************************"
 	puts  "    *************************"
 	puts  "    **                     **"
