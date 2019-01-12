@@ -15,14 +15,14 @@ for period in 1..3
 a = gets.chomp.to_i
 	if a > number 
 		puts "                                  "
-		puts "  Big ! try with the smallest  one"
+		puts "  Big!   try with a smallest  one"
 	elsif a < number 
 		puts "                                  "
-		puts "  small ! try with the biggest one"
+		puts "  Small! try with a biggest one"
 	end 
 end
 if a==number
-	puts  "        you are so smart     "
+	puts  "        You are so smart     "
 	puts  "    *************************"
 	puts  "    *************************"
 	puts  "    **                     **"
