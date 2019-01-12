@@ -22,7 +22,7 @@ a = gets.chomp.to_i
 	end 
 end
 if a==number
-	puts  "        your are so smart    "
+	puts  "        you are so smart     "
 	puts  "    *************************"
 	puts  "    *************************"
 	puts  "    **                     **"
@@ -36,7 +36,7 @@ if a != number
 	puts  "    *************************"
 	puts  "    *************************"
 	puts  "    **                     **"
-	puts  "    **     You lose        **"
+	puts  "    **     YOU LOSE        **"
 	puts  "    **                     **"
 	puts  "    *************************"
 	puts  "    *************************"
