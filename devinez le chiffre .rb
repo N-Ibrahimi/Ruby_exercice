@@ -9,12 +9,15 @@ number = rand(10)
 a = nil 
 for period in 1..3 
 	next if a == number
+	puts "                                      "
 	puts  "    Enter a numbre !"
 	print "    >"
 a = gets.chomp.to_i
 	if a > number 
+		puts "                                  "
 		puts "  Big ! try with the smallest  one"
 	elsif a < number 
+		puts "                                  "
 		puts "  small ! try with the biggest one"
 	end 
 end
@@ -37,7 +40,8 @@ if a != number
 	puts  "    *************************"
 	puts  "    *************************"
 end 
-puts "the number which was selected is #{number}"
-puts " thanks for trying this game"
+	puts  "                                  "
+	puts  "    the number which was selected is #{number}"
+	puts  "    thanks for trying this game"
 		
 
