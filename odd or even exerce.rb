@@ -1,9 +1,12 @@
 puts " Enter un odd numbre plz :) "
 puts " just for joking you can enter un even number "
+print "   >  "
 num = gets.chomp.to_i
+
 count =1
 while num.even?
 	puts "Enter un **odd** numbre (^^) "
+	print "   >  "
 	count +=1
 	num = gets.chomp.to_i
 end 
