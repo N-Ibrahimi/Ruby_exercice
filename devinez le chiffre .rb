@@ -19,23 +19,23 @@ a = gets.chomp.to_i
 	end 
 end
 if a==number
-	puts  "     your are so smart    "
-	puts  " *************************"
-	puts  " *************************"
-	puts  " **                     **"
-	puts  " **       BRAVO         **"
-	puts  " **                     **"
-	puts  " *************************"
-	puts  " *************************"
+	puts  "        your are so smart    "
+	puts  "    *************************"
+	puts  "    *************************"
+	puts  "    **                     **"
+	puts  "    **       BRAVO         **"
+	puts  "    **                     **"
+	puts  "    *************************"
+	puts  "    *************************"
 end 
 if a != number
-	puts  " *************************"
-	puts  " *************************"
-	puts  " **                     **"
-	puts  " **     You lose        **"
-	puts  " **                     **"
-	puts  " *************************"
-	puts  " *************************"
+	puts  "    *************************"
+	puts  "    *************************"
+	puts  "    **                     **"
+	puts  "    **     You lose        **"
+	puts  "    **                     **"
+	puts  "    *************************"
+	puts  "    *************************"
 end 
 puts "the number which was selected is #{number}"
 puts " thanks for trying this game"
