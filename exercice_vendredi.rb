@@ -13,14 +13,14 @@ puts " tu avais #{2017- date.to_i} ans en 2017"
 
 puts "enter a numbre pour te repter autant de fois une phrase "
 print ">"
-rep = gets.chomp
+rep = gets.chomp.to_i 
 str  = " Salut, ça farte?\n"
-puts "#{ str*rep.to_i}"
+puts "#{ str*rep}"
   
  puts "#exercice 03 --------------------------------------------------"
 
 
-puts "enter a numbre, je vais te compter de 0 justqu'à ce numéro "
+puts "entez un chiffre, je vais te compter de 0 justqu'à ce shiffre"
 print ">"
 a = gets.chomp
 i = 0
@@ -35,27 +35,26 @@ puts " #exercice 04 ----------------------------------------------------"
 
 puts "enter l'année de ta naissance "
 print ">"
-a = gets.chomp
+a = gets.chomp.to_i
 
-a.to_i .upto(2018) { |i|  puts i}
+a.upto(2018) { |i|  puts i}
 
 
 puts " #exercice 05 ------------------------------------------------------"
 
 puts "enter un chiffre pour compter à rebours  "
 print ">"
-a = gets.chomp
+a = gets.chomp.to_i
 
-a.to_i .downto(0) { |i|  puts i}
+a.downto(0) { |i|  puts i}
 
 puts " #exercice 06 ------------------------------------------------------"
 
 puts "enter l'année de ta naissance "
 print ">"
-a = gets.chomp
-	for i in a.to_i..2018 do
-   		puts  "en" + " #{i}" 
-  		 puts "  tu avais #{ i- a.to_i} ans"
+a = gets.chomp.to_i
+	for i in a..2018 do
+   		puts  "en " + " #{i}" + " tu avais #{i-a} ans."
 	end 
 
 puts " #exercice 07 ------------------------------------------------------"
@@ -64,7 +63,6 @@ puts "saisis ton âge "
 print ">"
 age = gets.to_i
 ans = 0
-
 		while age > 0
 		puts "il y a #{ans+1} ans tu avais #{age-1} ans !"
  	ans= ans+1
@@ -85,9 +83,9 @@ ans = 0
 				puts " il y a #{ans} tu avais la moitié de  ton age actuel " 
 			else 
 				puts "il y a #{ans+1} ans tu avais #{age-1} ans !"
-		end 
- 		ans= ans+1
- 		age= age-1
+			end 
+ 		ans += 1
+ 		age -= 1
  	end 
 
 puts " #exercice 09 ------------------------------------------------------"
@@ -129,9 +127,9 @@ puts " #exercice 11 ------------------------------------------------------"
 puts "Salut, bienvenue dans ma super pyramide ! Combien d'étages veux-tu ? (entre 0-25)"
 print ">"
 
-etag = gets.chomp
-pyramide = []
-etage.to_i.times do |i|
+etage = gets.chomp.to_i
+	pyramide = []
+	etage.times do |i|
     pyramide << "#{"#"*(i + 1)}"
   end
 
