@@ -1,0 +1,17 @@
+=begin class String
+  def initial
+    self[0,1]
+  end
+end
+=end 
+text =gets.chomp.scan /./
+b = text.collect! { |x| x.succ.succ.succ }
+b = b.join.to_s
+c = b.tr("#"," ")
+puts " ***** #{c} *****"
+puts " oui je l'ai remarqué il y a un petit problème :)"
+
+
+# tu pourrais inserer ces deux mots dans le consol et après voir qu'est ce que ça te donne :)
+
+#  pxirq kxpfj 
